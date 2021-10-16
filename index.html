@@ -12,220 +12,241 @@
     />
   </head>
   <body class="text-gray-800">
-    <!-- intro  -->
-    <div class="p-6">
-      <h1 class="text-3xl text-center font-bold mb-3">DROPDOWNJS</h1>
-      <!-- block  -->
-      <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
-        <p class="mb-2 text-center">
-          This library is powered by <b>JQUERY</b> and it helps you setup dropdowns quickly and simply.
-        </p>
-      </div>
-      <br />
-      <!-- download  -->
-      <div class="text-center">
-        <a href="dist/js/dropdown.min.js" download="" class="text-sm font-bold border border-transparent bg-green-400 text-white px-4 py-2 rounded-lg hover:border-green-400 hover:bg-white hover:text-green-400 active:scale-90 transition-all duration-200">DOWNLOAD</a>
-      </div>
-    </div>
-    <!-- preview  -->
-    <div class="p-16 pb-32 flex">
-      <div
-        data-dropdown-wrapper=""
-        class="relative inline-block text-left mx-auto"
-      >
-        <div>
-          <button
-            data-dropdown-trigger="trigger"
-            type="button"
+    <div class="max-w-7xl mx-auto">
+      <!-- intro  -->
+      <div class="p-6">
+        <h1 class="text-3xl text-center font-bold mb-3">DROPDOWNJS</h1>
+        <!-- block  -->
+        <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
+          <p class="mb-2 text-center">
+            This library is powered by <b>JQUERY</b> and it helps you setup
+            dropdowns quickly and simply.
+          </p>
+        </div>
+        <br />
+        <!-- download  -->
+        <div class="text-center">
+          <a
+            href="dist/js/dropdown.min.js"
+            download=""
             class="
-              inline-flex
-              justify-center
-              w-full
-              rounded-md
-              border border-gray-300
-              shadow-sm
+              text-sm
+              font-bold
+              border border-transparent
+              bg-green-400
+              text-white
               px-4
               py-2
-              bg-white
-              text-sm
-              font-medium
-              text-gray-700
-              hover:bg-gray-50
-              focus:outline-none
-              focus:ring-2
-              focus:ring-offset-2
-              focus:ring-offset-gray-100
-              focus:ring-indigo-500
+              rounded-lg
+              hover:border-green-400 hover:bg-white hover:text-green-400
+              active:scale-90
+              transition-all
+              duration-200
             "
-            id="menu-button"
-            aria-expanded="true"
-            aria-haspopup="true"
+            >DOWNLOAD</a
           >
-            Example
-            <!-- Heroicon name: solid/chevron-down -->
-            <svg
-              class="-mr-1 ml-2 h-5 w-5"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </button>
         </div>
+      </div>
+      <!-- preview  -->
+      <div class="p-16 pb-32 flex">
         <div
-          data-dropdown-menu=""
-          style="opacity: 0;"
-          class="
-            origin-top-right
-            absolute
-            right-0
-            mt-2
-            w-56
-            rounded-md
-            shadow-lg
-            bg-white
-            ring-1 ring-black ring-opacity-5
-            focus:outline-none
-          "
-          role="menu"
-          aria-orientation="vertical"
-          aria-labelledby="menu-button"
-          tabindex="-1"
+          data-dropdown-wrapper=""
+          class="relative inline-block text-left mx-auto"
         >
-          <div class="py-1" role="none">
-            <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
-            <a
-              href="#"
-              class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
-              role="menuitem"
-              tabindex="-1"
-              id="menu-item-0"
-              >Account settings</a
+          <div>
+            <button
+              data-dropdown-trigger="trigger"
+              type="button"
+              class="
+                inline-flex
+                justify-center
+                w-full
+                rounded-md
+                border border-gray-300
+                shadow-sm
+                px-4
+                py-2
+                bg-white
+                text-sm
+                font-medium
+                text-gray-700
+                hover:bg-gray-50
+                focus:outline-none
+                focus:ring-2
+                focus:ring-offset-2
+                focus:ring-offset-gray-100
+                focus:ring-indigo-500
+              "
+              id="menu-button"
+              aria-expanded="true"
+              aria-haspopup="true"
             >
-            <a
-              href="#"
-              class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
-              role="menuitem"
-              tabindex="-1"
-              id="menu-item-1"
-              >Support</a
-            >
-            <a
-              href="#"
-              class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
-              role="menuitem"
-              tabindex="-1"
-              id="menu-item-2"
-              >License</a
-            >
-            <form method="POST" action="#" role="none">
-              <button
-                type="submit"
-                class="
-                  text-gray-700
-                  block
-                  w-full
-                  text-left
-                  px-4
-                  py-2
-                  text-sm
-                  hover:bg-red-100
-                "
+              Example
+              <!-- Heroicon name: solid/chevron-down -->
+              <svg
+                class="-mr-1 ml-2 h-5 w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            data-dropdown-menu=""
+            style="opacity: 0"
+            class="
+              origin-top-right
+              absolute
+              right-0
+              mt-2
+              w-56
+              rounded-md
+              shadow-lg
+              bg-white
+              ring-1 ring-black ring-opacity-5
+              focus:outline-none
+            "
+            role="menu"
+            aria-orientation="vertical"
+            aria-labelledby="menu-button"
+            tabindex="-1"
+          >
+            <div class="py-1" role="none">
+              <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+              <a
+                href="#"
+                class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                 role="menuitem"
                 tabindex="-1"
-                id="menu-item-3"
+                id="menu-item-0"
+                >Account settings</a
               >
-                Sign out
-              </button>
-            </form>
+              <a
+                href="#"
+                class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                role="menuitem"
+                tabindex="-1"
+                id="menu-item-1"
+                >Support</a
+              >
+              <a
+                href="#"
+                class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                role="menuitem"
+                tabindex="-1"
+                id="menu-item-2"
+                >License</a
+              >
+              <form method="POST" action="#" role="none">
+                <button
+                  type="submit"
+                  class="
+                    text-gray-700
+                    block
+                    w-full
+                    text-left
+                    px-4
+                    py-2
+                    text-sm
+                    hover:bg-red-100
+                  "
+                  role="menuitem"
+                  tabindex="-1"
+                  id="menu-item-3"
+                >
+                  Sign out
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- instructions  -->
-    <div class="p-6">
-      <h1 class="text-2xl mb-4 font-black">Get started</h1>
-      <!-- block  -->
-      <h2 class="text-lg mb-3 font-bold">Add the script</h2>
-      <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
-        <p class="mb-2">
-          add the script to your html page after jquery and before your custom
-          script.
-        </p>
-        <pre class="language-html">
-<code>&lt;!-- jquery cdn ... --&gt;
-&lt;script src=&quot;/js/dropdown.min.js&quot;&gt;&lt;/script&gt;
-&lt;!-- custom script ...  --&gt;</code>
-        </pre>
+      <!-- instructions  -->
+      <div class="p-6">
+        <h1 class="text-2xl mb-4 font-black">Get started</h1>
+        <!-- block  -->
+        <h2 class="text-lg mb-3 font-bold">Add the script</h2>
+        <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
+          <p class="mb-2">
+            add the script to your html page after jquery and before your custom
+            script.
+          </p>
+          <pre class="language-html">
+  <code>&lt;!-- jquery cdn ... --&gt;
+  &lt;script src=&quot;/js/dropdown.min.js&quot;&gt;&lt;/script&gt;
+  &lt;!-- custom script ...  --&gt;</code>
+          </pre>
+        </div>
+        <br />
+        <!-- block  -->
+        <h2 class="text-lg mb-3 font-bold">Define the dropdown markup</h2>
+        <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
+          <p class="mb-2">
+            This is the recommended html structure for the dropdown. Please
+            don't forget adding those attributes like in the example, otherwise
+            te script will not be able to work.
+          </p>
+          <pre class="language-html">
+  <code>&lt;!-- wrapper  --&gt;
+  &lt;div data-dropdown-wrapper&gt;
+  &lt;!-- trigger  --&gt;
+    &lt;button data-dropdown-trigger&gt;Options&lt;/button&gt;
+  &lt;!-- menu  --&gt;
+    &lt;div data-dropdown-menu&gt;
+      &lt;a href=&quot;#&quot;&gt;Link #1&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Link #2&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Link #3&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Link #4&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code>
+          </pre>
+        </div>
+        <br />
+        <!-- block  -->
+        <h2 class="text-lg mb-3 font-bold">Call the dropdown constructor</h2>
+        <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
+          <p class="mb-2">
+            Run the script by creating instances for each dropdown on your page.
+          </p>
+          <pre class="language-javascript">
+  <code>const dropdowns = $("[data-dropdown-wrapper]").each(function (index, wrapper) {
+      const dropdown = new Dropdown({ wrapper, transformOrigin: false }).init();
+  });</code>
+           </pre>
+        </div>
+        <br />
+        <!-- block  -->
+        <h2 class="text-lg mb-3 font-bold">Configuration</h2>
+        <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
+          <p class="mb-2">
+            the Dropdown object constructor expects an object that has the
+            following keys:
+          </p>
+          <pre class="language-javascript">
+        <code>
+  {
+    // required
+    wrapper : "DOM element. The container that containes the trigger its menu"
+    // optional
+    transformOrigin : "the css value of transform-origin, by default it's set to 'top', pass false to disable"
+    transition : "the css value of transition, by default it's set to 'all .15s ease-in-out', pass false to disable",
+    visibleCss = "by default it's { transform: "scale(1)", opacity: 1 }",
+    hiddenCss = "by default it's { transform: "scale(0)", opacity: 0 }",
+    onClose : "callback after close"
+    onOpen : "callback after open"
+  }
+        </code>
+          </pre>
+        </div>
+        <br />
       </div>
-      <br />
-      <!-- block  -->
-      <h2 class="text-lg mb-3 font-bold">Define the dropdown markup</h2>
-      <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
-        <p class="mb-2">
-          This is the recommended html structure for the dropdown. Please don't
-          forget adding those attributes like in the example, otherwise te script
-          will not be able to work.
-        </p>
-        <pre class="language-html">
-<code>&lt;!-- wrapper  --&gt;
-&lt;div data-dropdown-wrapper&gt;
-&lt;!-- trigger  --&gt;
-  &lt;button data-dropdown-trigger&gt;Options&lt;/button&gt;
-&lt;!-- menu  --&gt;
-  &lt;div data-dropdown-menu&gt;
-    &lt;a href=&quot;#&quot;&gt;Link #1&lt;/a&gt;
-    &lt;a href=&quot;#&quot;&gt;Link #2&lt;/a&gt;
-    &lt;a href=&quot;#&quot;&gt;Link #3&lt;/a&gt;
-    &lt;a href=&quot;#&quot;&gt;Link #4&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</code>
-        </pre>
-      </div>
-      <br />
-      <!-- block  -->
-      <h2 class="text-lg mb-3 font-bold">Call the dropdown constructor</h2>
-      <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
-        <p class="mb-2">
-          Run the script by creating instances for each dropdown on your page.
-        </p>
-        <pre class="language-javascript">
-<code>const dropdowns = $("[data-dropdown-wrapper]").each(function (index, wrapper) {
-    const dropdown = new Dropdown({ wrapper, transformOrigin: false }).init();
-});</code>
-         </pre>
-      </div>
-      <br />
-      <!-- block  -->
-      <h2 class="text-lg mb-3 font-bold">Configuration</h2>
-      <div class="p-4 rounded-lg text-sm bg-gray-200 text-gray-900">
-        <p class="mb-2">
-          the Dropdown object constructor expects an object that has the
-          following keys:
-        </p>
-        <pre class="language-javascript">
-      <code>
-{
-  // required
-  wrapper : "DOM element. The container that containes the trigger its menu"
-  // optional
-  transformOrigin : "the css value of transform-origin, by default it's set to 'top', pass false to disable"
-  transition : "the css value of transition, by default it's set to 'all .15s ease-in-out', pass false to disable",
-  visibleCss = "by default it's { transform: "scale(1)", opacity: 1 }",
-  hiddenCss = "by default it's { transform: "scale(0)", opacity: 0 }",
-  onClose : "callback after close"
-  onOpen : "callback after open"
-}
-      </code>
-        </pre>
-      </div>
-      <br />
     </div>
     <!-- jquery  -->
     <script
