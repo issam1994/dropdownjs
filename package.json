@@ -1,8 +1,8 @@
 {
-  "name": "jquery-dropdown",
+  "name": "ia-dropdown",
   "version": "1.0.0",
-  "description": "a javascript lib for creating functional dropdowns.",
-  "main": "index.js",
+  "description": "ia-dropdown is a javascript lib for creating functional dropdowns.",
+  "main": "index.html",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
